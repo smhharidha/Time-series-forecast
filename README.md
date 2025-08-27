@@ -92,6 +92,7 @@ Time-series-forecast/
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 ---
+https://share.streamlit.io/  #link to view the streamlit app
 
 ## 📜 License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
