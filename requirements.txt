@@ -13,4 +13,7 @@ pystan==3.3.2
 
 
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> ecd25a1 (Update requirements.txt and add redeploy fix comment)
