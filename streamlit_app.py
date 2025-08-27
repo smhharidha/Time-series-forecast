@@ -98,7 +98,7 @@ lstm_preds = []
 for _ in range(horizon):
     pred = model_lstm.predict(last_5, verbose=0)
     lstm_preds.append(pred[0,0])
-    last_5 = np.append(last_5[:,1:,:], [[pred]], axis=1)
+    last_5 = np.append(last_5[:,1:,:], pred.reshape(1,1,1), axis=1)
 lstm_preds = scaler.inverse_transform(np.array(lstm_preds).reshape(-1,1))
 
 # ------------------ Plot ------------------
